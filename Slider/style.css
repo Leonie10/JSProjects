@@ -26,16 +26,15 @@
     cursor: pointer;
     z-index: 3;
     scroll-behavior: smooth;
-    
-
 }
 .slider-img{
     position: relative;
     height: 80%;
     width: 50%;
-    margin: 0px 10px;
+    margin: 10px;
 
 }
+
 ::-webkit-scrollbar {
     display: none;
 }
