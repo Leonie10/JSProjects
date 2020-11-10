@@ -9,11 +9,6 @@ drag.addEventListener('drag', dragEl);
 drag.addEventListener('dragend', dragEnd);
 
 
-
-// QUAND DRAGSTART FUTURE EST SUR DRAG
-// FUTURE ROTATE +  = DRAGPOSITION
-
-
 function dragStart (){
     setTimeout( function () {
         drag.classList.add('drag-hide');
@@ -31,10 +26,6 @@ function dragEl (e){
 function dragEnd() {
     drag.classList.remove('drag-hide');
 }
-
-
-
-
 
 
 // Drop1
