@@ -41,7 +41,7 @@
     position: relative;
     height: 10vh;
     width: 10vh;
-    background-color: rgb(122, 113, 100);
+    background-color: rgb(240, 44, 10);
     border-radius: 50%;
     margin: 5%;
     transform: translate(0, 0);
@@ -69,12 +69,13 @@
     top: 0;
     background-image: url(./images/parisafter4.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position-y: 50%;
-    filter: grayscale(0.5);
+    filter: grayscale(0.8);
     z-index: 2;
     transform-origin: left bottom;
     transform: rotateZ(15deg); 
-    transition: all 0s ease;
+    transition: transform 0s ease, left 1s ease;
     
 }
 
